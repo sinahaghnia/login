@@ -1,0 +1,139 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background-image: url(../img/wal.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+                                            /* start to make glass login */
+
+.glass-login{
+    position: absolute;
+    box-shadow: 0px 0px 30px 0px rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.108);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    width: 500px;
+    height: 550px;
+    bottom: 90px; 
+    
+}
+
+.glass-login .email-password{
+    display: flex;
+    flex-direction: column;
+    margin: 50px 30px;
+}
+
+.glass-login .email-password .email{
+    height: 45px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 20px;
+    outline: none;
+    padding-left: 10px;
+}
+
+.glass-login .email-password .email:hover{
+    border: 1px solid #54a9ff;
+
+}
+
+.glass-login .email-password .password{
+    height: 45px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+}
+
+.glass-login .email-password .password:hover{
+    border: 1px solid #54a9ff;
+
+}
+
+.glass-login .email-password label{
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 6px;
+
+}
+
+.glass-login .forget-password{
+    position: absolute;
+    font-size: 1.7rem;
+    right: 30px;
+    top: 225px;
+
+
+}
+
+.glass-login .forget-password a{
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+.glass-login .sign-in-button input{
+    width: 440px;
+    height: 45px;
+    border-radius: 5px;
+    border: none;
+    margin: 25px 30px;
+    background-color: #3742fa;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    
+}
+
+.glass-login .or-sign-with-google{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.9rem;
+}
+
+.glass-login .or-sign-with-google .or::after{
+    border-bottom: 2px solid black;
+    content: "";
+    flex: 1;
+}
+
+.glass-login .or-sign-with-google .or{
+    color: white;
+    margin-bottom: 20px;
+    font-size: 2.1rem;
+
+}
+
+.glass-login .or-sign-with-google .sign-with-google{
+    color: white;
+}
+
+.glass-login .or-sign-with-google img{
+    position: absolute;
+    width: 2.5rem;
+    top: 401px;
+    left: 144px;
+}
+
+.glass-login .create-acount{
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.glass-login .create-acount span{
+    color: rgb(255, 255, 255);
+}
+
+.glass-login .create-acount a{
+    border-bottom: 1px solid #ffffff;
+    color: #ffffff;
+    
+}
+
+
