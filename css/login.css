@@ -145,7 +145,10 @@ body{
     html , body{
         width: 100%;
         height: 100%;
- 
+    }
+
+    body{
+        background-image: url(../img/@Wallpaper_4K3D\ \(15247\)8K.jpg);
     }
     
     .glass-login{
@@ -153,7 +156,7 @@ body{
         height:400px ;
         position: absolute;
         top: 100px;
-        left: 45px;
+        left: 28px;
         
     }
     .glass-login .email-password{
